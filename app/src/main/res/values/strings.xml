@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Egay Splash Screen</string>
+    <string name="about">Studio Ghibli Movies</string>
+    <string name="movies">Movies</string>
+    <string name="icon_holder">Icon Holder</string>
+</resources>

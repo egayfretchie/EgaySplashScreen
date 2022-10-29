@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/rose"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/blue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/about"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row_header1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="210dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:src="@drawable/howlscastle"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="210dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:src="@drawable/princessmononoke" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_header2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="210dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:src="@drawable/neighbortotoro"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="210dp"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:src="@drawable/spiritedaway"/>
+
+    </TableRow>
+</TableLayout>
